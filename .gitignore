@@ -1,0 +1,50 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Virtual environment
+venv/
+env/
+
+# Django migrations
+**/migrations/
+*.sqlite3
+
+# macOS system files
+.DS_Store
+
+# VSCode settings (if using VSCode)
+.vscode/
+
+# Pytest and test cache
+.pytest_cache/
+.coverage
+
+# Django static and media files (optional if auto-generated)
+#staticfiles/
+#media/
+
+# Local environment variables
+.env
+.env.*
+
+# Logs
+*.log
+
+# Compiled translations
+*.mo
+
+# pip
+pip-log.txt
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# pyright / pylance (if using)
+.pyright/
